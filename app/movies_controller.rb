@@ -35,6 +35,7 @@ def can_be_created_in_a_block(args = {})
 end
 
 def can_get_the_first_item_in_the_database
+  Movie.first.title
 
 end
 
